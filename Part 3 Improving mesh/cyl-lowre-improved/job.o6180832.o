@@ -1,0 +1,5 @@
+/scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-lowre-improved
+Mon Mar 18 12:50:36 CDT 2024
+Running blockMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-lowre-improved
+Running checkMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-lowre-improved
+Running icoFoam on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-lowre-improved

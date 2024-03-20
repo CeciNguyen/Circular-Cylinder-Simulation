@@ -1,0 +1,8 @@
+/scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-strau-4
+Mon Mar 18 20:54:48 CDT 2024
+Running blockMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-strau-4
+Running checkMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-strau-4
+Running decomposePar on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-strau-4
+Running icoFoam in parallel on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-strau-4 using 2 processes
+Running reconstructPar on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-strau-4
+Mon Mar 18 20:58:07 CDT 2024

@@ -1,0 +1,8 @@
+/scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-lowre-improved
+Mon Mar 18 14:11:07 CDT 2024
+Running blockMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-lowre-improved
+Running checkMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-lowre-improved
+Running decomposePar on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-lowre-improved
+Running icoFoam in parallel on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-lowre-improved using 2 processes
+Running reconstructPar on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cyl-lowre-improved
+Mon Mar 18 15:09:37 CDT 2024
