@@ -1,0 +1,8 @@
+/scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cylinder/20-mesh-2
+Thu Mar 21 16:52:03 CDT 2024
+Running blockMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cylinder/20-mesh-2
+Running checkMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cylinder/20-mesh-2
+Running decomposePar on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cylinder/20-mesh-2
+Running icoFoam in parallel on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cylinder/20-mesh-2 using 16 processes
+Running reconstructPar on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cylinder/20-mesh-2
+Thu Mar 21 17:07:48 CDT 2024
