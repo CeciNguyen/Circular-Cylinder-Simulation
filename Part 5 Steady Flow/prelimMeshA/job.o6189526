@@ -1,0 +1,8 @@
+/work2/09049/dcn558/frontera/CFD/circular-cylinder
+Thu Mar 21 16:25:25 CDT 2024
+blockMesh already run on /work2/09049/dcn558/frontera/CFD/circular-cylinder: remove log file 'log.blockMesh' to re-run
+checkMesh already run on /work2/09049/dcn558/frontera/CFD/circular-cylinder: remove log file 'log.checkMesh' to re-run
+decomposePar already run on /work2/09049/dcn558/frontera/CFD/circular-cylinder: remove log file 'log.decomposePar' to re-run
+icoFoam already run on /work2/09049/dcn558/frontera/CFD/circular-cylinder: remove log file 'log.icoFoam' to re-run
+reconstructPar already run on /work2/09049/dcn558/frontera/CFD/circular-cylinder: remove log file 'log.reconstructPar' to re-run
+Thu Mar 21 16:25:26 CDT 2024
