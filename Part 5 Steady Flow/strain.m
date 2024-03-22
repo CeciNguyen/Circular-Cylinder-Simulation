@@ -1,6 +1,6 @@
 clear all;
 
-folder = "/Users/grantkitlowski/Documents/github/Circular-Cylinder-Simulation/Part 5 Steady Flow/20-mesh-2/postProcessing/singleGraph/100/";
+folder = "/Users/grantkitlowski/Documents/github/Circular-Cylinder-Simulation/Part 5 Steady Flow/20-mesh-4/postProcessing/singleGraph/100/";
 pie_4 = importdata(folder + "line1_U.xy");
 pie_2 = importdata(folder + "line2_U.xy");
 pie3_4 = importdata(folder + "line3_U.xy");
