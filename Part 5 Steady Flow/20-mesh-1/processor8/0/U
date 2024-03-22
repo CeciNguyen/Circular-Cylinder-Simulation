@@ -35,7 +35,7 @@ boundaryField
     cylinder
     {
         type            fixedValue;
-        value           uniform (0 0 0);
+        value           nonuniform 0();
     }
     top
     {

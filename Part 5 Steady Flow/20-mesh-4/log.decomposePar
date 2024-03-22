@@ -1,0 +1,247 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : decomposePar
+Date   : Mar 21 2024
+Time   : 17:22:19
+Host   : "c202-009.frontera.tacc.utexas.edu"
+PID    : 24669
+I/O    : uncollated
+Case   : /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/cylinder/20-mesh-4
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh region0
+
+Create mesh
+
+Calculating distribution of cells
+ Foam::decompositionMethod::New 
+{
+    numberOfSubdomains 16;
+    method          hierarchical;
+    simpleCoeffs
+    {
+        n               ( 4 4 1 );
+        delta           0.001;
+    }
+    hierarchicalCoeffs
+    {
+        n               ( 4 4 1 );
+        delta           0.001;
+        order           xyz;
+    }
+}
+
+Selecting decompositionMethod hierarchical
+
+Finished decomposition in 0.01 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 2625
+    Number of faces shared with processor 1 = 52
+    Number of faces shared with processor 4 = 68
+    Number of faces shared with processor 5 = 13
+    Number of processor patches = 3
+    Number of processor faces = 133
+    Number of boundary faces = 5347
+
+Processor 1
+    Number of cells = 2625
+    Number of faces shared with processor 0 = 52
+    Number of faces shared with processor 2 = 38
+    Number of faces shared with processor 5 = 74
+    Number of processor patches = 3
+    Number of processor faces = 164
+    Number of boundary faces = 5304
+
+Processor 2
+    Number of cells = 2625
+    Number of faces shared with processor 1 = 38
+    Number of faces shared with processor 3 = 50
+    Number of faces shared with processor 5 = 18
+    Number of faces shared with processor 6 = 58
+    Number of processor patches = 4
+    Number of processor faces = 164
+    Number of boundary faces = 5302
+
+Processor 3
+    Number of cells = 2625
+    Number of faces shared with processor 2 = 50
+    Number of faces shared with processor 6 = 1
+    Number of faces shared with processor 7 = 53
+    Number of processor patches = 3
+    Number of processor faces = 104
+    Number of boundary faces = 5352
+
+Processor 4
+    Number of cells = 2625
+    Number of faces shared with processor 0 = 68
+    Number of faces shared with processor 5 = 79
+    Number of faces shared with processor 8 = 49
+    Number of faces shared with processor 9 = 1
+    Number of processor patches = 4
+    Number of processor faces = 197
+    Number of boundary faces = 5305
+
+Processor 5
+    Number of cells = 2625
+    Number of faces shared with processor 0 = 13
+    Number of faces shared with processor 1 = 74
+    Number of faces shared with processor 2 = 18
+    Number of faces shared with processor 4 = 79
+    Number of faces shared with processor 6 = 58
+    Number of faces shared with processor 9 = 14
+    Number of processor patches = 6
+    Number of processor faces = 256
+    Number of boundary faces = 5410
+
+Processor 6
+    Number of cells = 2625
+    Number of faces shared with processor 2 = 58
+    Number of faces shared with processor 3 = 1
+    Number of faces shared with processor 5 = 58
+    Number of faces shared with processor 7 = 52
+    Number of faces shared with processor 9 = 1
+    Number of faces shared with processor 10 = 54
+    Number of processor patches = 6
+    Number of processor faces = 224
+    Number of boundary faces = 5250
+
+Processor 7
+    Number of cells = 2625
+    Number of faces shared with processor 3 = 53
+    Number of faces shared with processor 6 = 52
+    Number of faces shared with processor 11 = 56
+    Number of processor patches = 3
+    Number of processor faces = 161
+    Number of boundary faces = 5299
+
+Processor 8
+    Number of cells = 2625
+    Number of faces shared with processor 4 = 49
+    Number of faces shared with processor 9 = 78
+    Number of faces shared with processor 12 = 69
+    Number of processor patches = 3
+    Number of processor faces = 196
+    Number of boundary faces = 5306
+
+Processor 9
+    Number of cells = 2625
+    Number of faces shared with processor 4 = 1
+    Number of faces shared with processor 5 = 14
+    Number of faces shared with processor 6 = 1
+    Number of faces shared with processor 8 = 78
+    Number of faces shared with processor 10 = 58
+    Number of faces shared with processor 12 = 13
+    Number of faces shared with processor 13 = 74
+    Number of faces shared with processor 14 = 17
+    Number of processor patches = 8
+    Number of processor faces = 256
+    Number of boundary faces = 5410
+
+Processor 10
+    Number of cells = 2625
+    Number of faces shared with processor 6 = 54
+    Number of faces shared with processor 9 = 58
+    Number of faces shared with processor 11 = 53
+    Number of faces shared with processor 14 = 60
+    Number of faces shared with processor 15 = 1
+    Number of processor patches = 5
+    Number of processor faces = 226
+    Number of boundary faces = 5250
+
+Processor 11
+    Number of cells = 2625
+    Number of faces shared with processor 7 = 56
+    Number of faces shared with processor 10 = 53
+    Number of faces shared with processor 15 = 52
+    Number of processor patches = 3
+    Number of processor faces = 161
+    Number of boundary faces = 5299
+
+Processor 12
+    Number of cells = 2625
+    Number of faces shared with processor 8 = 69
+    Number of faces shared with processor 9 = 13
+    Number of faces shared with processor 13 = 52
+    Number of processor patches = 3
+    Number of processor faces = 134
+    Number of boundary faces = 5346
+
+Processor 13
+    Number of cells = 2625
+    Number of faces shared with processor 9 = 74
+    Number of faces shared with processor 12 = 52
+    Number of faces shared with processor 14 = 38
+    Number of processor patches = 3
+    Number of processor faces = 164
+    Number of boundary faces = 5304
+
+Processor 14
+    Number of cells = 2625
+    Number of faces shared with processor 9 = 17
+    Number of faces shared with processor 10 = 60
+    Number of faces shared with processor 13 = 38
+    Number of faces shared with processor 15 = 50
+    Number of processor patches = 4
+    Number of processor faces = 165
+    Number of boundary faces = 5303
+
+Processor 15
+    Number of cells = 2625
+    Number of faces shared with processor 10 = 1
+    Number of faces shared with processor 11 = 52
+    Number of faces shared with processor 14 = 50
+    Number of processor patches = 3
+    Number of processor faces = 103
+    Number of boundary faces = 5353
+
+Number of processor faces = 1404
+Max number of cells = 2625 (0% above average 2625)
+Max number of processor patches = 8 (100% above average 4)
+Max number of faces between processors = 256 (45.8689% above average 175.5)
+
+Time = 0
+
+Processor 0: field transfer
+Processor 1: field transfer
+Processor 2: field transfer
+Processor 3: field transfer
+Processor 4: field transfer
+Processor 5: field transfer
+Processor 6: field transfer
+Processor 7: field transfer
+Processor 8: field transfer
+Processor 9: field transfer
+Processor 10: field transfer
+Processor 11: field transfer
+Processor 12: field transfer
+Processor 13: field transfer
+Processor 14: field transfer
+Processor 15: field transfer
+
+End
+

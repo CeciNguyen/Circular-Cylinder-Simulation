@@ -49,6 +49,11 @@ boundaryField
     {
         type            empty;
     }
+    procBoundary9to4
+    {
+        type            processor;
+        value           uniform (1 0 0);
+    }
     procBoundary9to5
     {
         type            processor;

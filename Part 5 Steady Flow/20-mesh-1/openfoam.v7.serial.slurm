@@ -27,7 +27,7 @@ module list
 pwd
 date
 
-./AllrunParallel
+./Allrun
 
 date
 

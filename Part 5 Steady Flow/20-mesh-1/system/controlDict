@@ -27,8 +27,8 @@ stopAt          endTime;
 // attempting to execute any OpenFOAM utility.
 // See README for details
 
-endTime         100.0;
-deltaT          0.005;
+endTime         20.0;
+deltaT          0.001;
 writeInterval   5.0;
 
 writeControl    runTime;

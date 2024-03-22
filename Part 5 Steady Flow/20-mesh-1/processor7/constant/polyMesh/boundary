@@ -21,48 +21,48 @@ FoamFile
     {
         type            patch;
         nFaces          0;
-        startFace       1259;
+        startFace       5144;
     }
     outlet
     {
         type            patch;
-        nFaces          24;
-        startFace       1259;
+        nFaces          48;
+        startFace       5144;
     }
     cylinder
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       1283;
+        startFace       5192;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       1283;
+        startFace       5192;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       1283;
+        startFace       5192;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
-        nFaces          1312;
-        startFace       1283;
+        nFaces          5250;
+        startFace       5192;
     }
     procBoundary7to3
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          27;
-        startFace       2595;
+        nFaces          52;
+        startFace       10442;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        7;
@@ -72,8 +72,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          26;
-        startFace       2622;
+        nFaces          54;
+        startFace       10494;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        7;
@@ -83,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          29;
-        startFace       2648;
+        nFaces          58;
+        startFace       10548;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        7;
