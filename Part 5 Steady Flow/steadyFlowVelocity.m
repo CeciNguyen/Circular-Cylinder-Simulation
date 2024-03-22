@@ -1,8 +1,7 @@
 % Import data
-folder = "/Users/grantkitlowski/Documents/github/Circular-Cylinder-Simulation/Part 5 Steady Flow/20-mesh-1/postProcessing/singleGraph/20/";
-pie_4 = importdata(folder + "line1_U.xy");
-pie_2 = importdata(folder + "line2_U.xy");
-pie3_4 = importdata(folder + "line3_U.xy");
+pie_4 = importdata("line1_U.xy");
+pie_2 = importdata("line2_U.xy");
+pie3_4 = importdata("line3_U.xy");
 
 % Extract data for pi/4 line
 pie_4x = pie_4(:, 1);
